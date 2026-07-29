@@ -30,7 +30,7 @@ This repository is configured to work across Windows, Mac (Intel), and Mac (Appl
 
 ### 1. Clone the Repository
 ```bash
-git clone <YOUR_GITHUB_REPO_URL_HERE>
+git clone https://github.com/gulgul-04/NetML-CL
 cd NetML-CL
 
 ## 2. Create and Activate the Virtual Environment
