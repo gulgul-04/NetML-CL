@@ -4,7 +4,7 @@ This project implements an **Optimized Latent-Temporal Fusion Architecture** to 
 
 ---
 
-## 🧠 Project Architecture
+##  Project Architecture
 
 The detection engine relies on three distinct AI frameworks working collaboratively to balance inference speed, accuracy, and continuous learning:
 
@@ -12,7 +12,7 @@ The detection engine relies on three distinct AI frameworks working collaborativ
 2. **1D-TCN + Attention - The Temporal Engine:** Replaces traditional BiLSTMs with a Temporal Convolutional Network. It uses dilated causal convolutions to process sequences of latent vectors in parallel, achieving microsecond-level latency while tracking the behavioral context of network flows.
 3. **SF-SOINN - The Zero-Day Hunter:** A Soft-Forgetting Self-Organizing Incremental Neural Network. It uses geometric distance in the latent space to cluster unknown anomalies into distinct new attack families on the fly, without requiring computationally heavy backpropagation.
 
-## 🔄 The Data Workflow
+##  The Data Workflow
 
 1. **Ingestion:** Statistical flow features (e.g., flow duration, byte counts) are extracted over a set time window.
 2. **Compression:** The Autoencoder reduces the flow vector to a dense latent representation.
@@ -24,7 +24,7 @@ The detection engine relies on three distinct AI frameworks working collaborativ
 
 ---
 
-## 🛠️ Cloning and Setup
+##  Cloning and Setup
 
 This repository is configured to work across Windows, Mac (Intel), and Mac (Apple Silicon).
 
@@ -80,7 +80,7 @@ python device_check.py
 
 ---
 
-## 📁 Data Setup
+##  Data Setup
 
 Due to GitHub's size constraints, the NetML datasets (1.2M+ flows) are **not** hosted in this repository.
 
