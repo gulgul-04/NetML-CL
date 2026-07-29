@@ -1,0 +1,6 @@
+netml_env/
+__pycache__/
+data/
+*.pcap
+*.csv
+.DS_Store
